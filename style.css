@@ -1,0 +1,29 @@
+* {
+    color: white;
+}
+body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    overflow: hidden;
+}
+.screen {
+    border: 4px solid white;
+    width: 800px;
+    height: 600px;
+}
+#startMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#startButton {
+    display: block;
+    background: black;
+    border: none;
+    font-size: 75px;
+}
